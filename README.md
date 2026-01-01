@@ -214,8 +214,8 @@ Input:
 
 Output:
 
-- Item\
-* Item\
+- Item
+* Item
 + Item
 
 <br/>
@@ -243,8 +243,8 @@ Output:
 Input:
 
 \- Item \
-    \- Item \
-        \- Item
+&emsp \- Item \
+&emsp &emsp \- Item
 
 <br/>
 
