@@ -135,7 +135,7 @@ print("Python block code")
 
 <br/>
 
-## Normal Link
+**Normal Link:**
 
 Input: \[Google\]\(https://www.google.com\)
 
@@ -143,7 +143,7 @@ Output: [Google](https://www.google.com)
 
 <br/>
 
-## Heading Link
+**Heading Link:**
 
 Input: \[Table of Contents\]\(#table-of-contents\)
 
@@ -151,11 +151,11 @@ Output: [Table of Contents](#table-of-contents)
 
 <br/>
 
-## Relative Link
+**Relative Link:**
 
 <br/>
 
-## Custom Anchor Link
+**Custom Anchor Link:**
 
 Input: \[Custom Anchor Link\]\(#custom-anchor-point\)
 
@@ -191,10 +191,14 @@ Bye, <br/> World!
 
 <a name="custom-anchor-point"></a>
 
+<br/>
+
 # Image
 
 > **Use \!\[Alternative Text\]\(URL\)**
 
+<br/>
+
 # List
 
-## Unordered List
+**Unordered List:**
