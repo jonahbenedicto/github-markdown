@@ -46,10 +46,10 @@ A table of contents is automatically added when you use two or more headings.
 
 | Style | Syntax | Keyboard Shortcut | Example | Output |
 |---|---|---|---|---|
-| Bold | `** **` or `__ __` | `Command`+`B` <br/> (Mac) <br/> or <br/> `Ctrl`+`B` <br/> (Windows/Linux) | This is \*\*bold\*\* text | This is **bold** text |
-| Italic | `* *` or `_ _` | `Command`+`I` <br/> (Mac) <br/> or <br/> `Ctrl`+`I` <br/> (Windows/Linux) | This is \*italic\* text | This is *italic* text |
-| Strikethrough | `~~ ~~` or `~ ~` | None | This is \~strikethrough\~ text | This is ~strikethrough~ text |
-| Bold and italic | `*** ***` | None | This is \*\*\*bold and italic\*\*\* text | This is ***bold and italic*** text |
-| Subscript | `<sub> </sub>` | None | This is \<sub\>subscript\<\/sub\> text | This is <sub>subscript</sub> text |
-| Superscript | `<sup> </sup>` | None | This is \<sup\>superscript\<\/sup\> text | This is <sup>superscript</sup> text |
-| Underline | `<ins> </ins>` | None | this is \<ins\>underline\<\/ins\> text | This is <ins>underline</ins> text |
+| Bold | `** **` or `__ __` | `Command`+`B` <br/> (Mac) <br/> or <br/> `Ctrl`+`B` <br/> (Windows/Linux) | This is <br/> \*\*bold\*\* <br/> text | This is <br/> **bold** <br/> text |
+| Italic | `* *` or `_ _` | `Command`+`I` <br/> (Mac) <br/> or <br/> `Ctrl`+`I` <br/> (Windows/Linux) | This is <br/> \*italic\* <br/> text | This is <br/> *italic* <br/> text |
+| Strikethrough | `~~ ~~` or `~ ~` | None | This is <br/> \~strikethrough\~ <br/> text | This is <br/> ~strikethrough~ <br/> text |
+| Bold and italic | `*** ***` | None | This is <br/> \*\*\*bold and italic\*\*\* <br/> text | This is <br/> ***bold and italic*** <br/> text |
+| Subscript | `<sub> </sub>` | None | This is <br/> \<sub\>subscript\<\/sub\> <br/> text | This is <br/> <sub>subscript</sub> <br/> text |
+| Superscript | `<sup> </sup>` | None | This is <br/> \<sup\>superscript\<\/sup\> <br/> text | This is <br/> <sup>superscript</sup> <br/> text |
+| Underline | `<ins> </ins>` | None | this is <br/> \<ins\>underline\<\/ins\> <br/> text | This is <br/> <ins>underline</ins> <br/> text |
