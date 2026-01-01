@@ -206,11 +206,11 @@ Bye, <br/> World!
 
 Input:
 
-\- Item
-\* Item
+\- Item\
+\* Item\
 \+ Item
 
-</br>
+<br/>
 
 Output:
 
@@ -228,10 +228,30 @@ Input:
 2\. Item\
 3\. Item
 
+<br/>
+
 Output:
 
 1. Item
 2. Item
 3. Item
+
+<br/>
+
+**Nested List:**
+
+Input:
+
+\- Item \
+    \- Item \
+        \- Item
+
+<br/>
+
+Output:
+- Item
+    - Item
+        - Item
+
 
 
