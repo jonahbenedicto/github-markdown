@@ -35,7 +35,7 @@ A Comprehensive Guide to Markdown on GitHub.
 
 <br/>
 
-**Markdown:**
+**Input:**
 
 \# Heading 1
 
@@ -96,7 +96,7 @@ A Comprehensive Guide to Markdown on GitHub.
 
 <br/>
 
-**Markdown:**
+**Input:**
 
 \> Quote
 
@@ -118,7 +118,7 @@ A Comprehensive Guide to Markdown on GitHub.
 
 <br/>
 
-**Markdown:**
+**Input:**
 
 \`Inline code\`
 
@@ -173,22 +173,42 @@ print("Python block code")
 
 [Custom Anchor Link](#custom-anchor-point)
 
+
+<br/>
+
+<br/>
+
+
+# Line Break
+
+> Use `\` or `<br/>`
+
+<br/>
+
+**Input:**
+
+Hello, \\ World!
+
+Bye, \<br\/\> World!
+
+<br/>
+
+**Output:**
+
+Hello,\ World!
+
+Bye, <br/> World!
+
+
+<br/>
+
+<br/>
+
+
 # Custom Anchor Point
 
 \<a name="custom-anchor-point"\>\<\/a\>
 
 <a name="custom-anchor-point"></a>
 
-# Line Break
-
-> Use `\` or `<br/>`
-
-Hello, \\ World!
-
-Bye, \<br\/\> World!
-
-
-Hello,\ World!
-
-Bye, <br/> World!
 
