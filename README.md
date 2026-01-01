@@ -33,8 +33,7 @@ Default
 
 \#\#\#\#\#\# Heading 6
 
-> [!NOTE]
-> Preview
+---
 
 # Heading 1
 
@@ -48,10 +47,6 @@ Default
 
 ###### Heading 6
 
-> [!Note]
-> Additional
-
-A table of contents is automatically added when you use two or more headings.
 
 # Style
 
@@ -67,7 +62,8 @@ A table of contents is automatically added when you use two or more headings.
 
 # Quote
 
-Use `>` symbol
+> [!NOTE]
+> Use `>` symbol
 
 \> Quote
 
@@ -77,7 +73,8 @@ Use `>` symbol
 
 # Code
 
-Use `` ` `` symbol
+> [!NOTE]
+> Use `` ` `` symbol
 
 \`Inline code\`
 
@@ -132,7 +129,8 @@ Use \[Text\]\(URL\)
 
 # Line Break
 
-Use `\` or `<br/>`
+> [!NOTE]
+> Use `\` or `<br/>`
 
 Hello, \\ World!
 
