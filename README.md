@@ -18,7 +18,6 @@ Default
 
 # Heading
 
-> [!NOTE]
 > Use `#` symbol
 
 \# Heading 1
@@ -32,8 +31,6 @@ Default
 \#\#\#\#\# Heading 5
 
 \#\#\#\#\#\# Heading 6
-
----
 
 # Heading 1
 
@@ -62,18 +59,14 @@ Default
 
 # Quote
 
-> [!NOTE]
 > Use `>` symbol
 
 \> Quote
-
----
 
 > Quote
 
 # Code
 
-> [!NOTE]
 > Use `` ` `` symbol
 
 \`Inline code\`
@@ -85,8 +78,6 @@ Block code <br/>
 \`\`\`python <br/>
 Python block code <br/>
 \`\`\`
-
----
 
 `Inline code`
 
@@ -100,7 +91,7 @@ print("Python block code")
 
 # Link
 
-Use \[Text\]\(URL\)
+> Use \[Text\]\(URL\)
 
 **Normal Link:**
 
@@ -129,14 +120,12 @@ Use \[Text\]\(URL\)
 
 # Line Break
 
-> [!NOTE]
 > Use `\` or `<br/>`
 
 Hello, \\ World!
 
 Bye, \<br\/\> World!
 
----
 
 Hello,\ World!
 
