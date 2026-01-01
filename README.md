@@ -32,6 +32,8 @@ Use `#` symbol
 
 \#\#\#\#\#\# Heading 6
 
+---
+
 # Heading 1
 
 ## Heading 2
@@ -64,6 +66,8 @@ Use `>` symbol
 
 \> Quote
 
+---
+
 > Quote
 
 # Code
@@ -80,6 +84,8 @@ Block code <br/>
 Python block code <br/>
 \`\`\`
 
+---
+
 `Inline code`
 
 ```
@@ -95,17 +101,22 @@ print("Python block code")
 Use \[Text\]\(URL\)
 
 **Normal Link:**
+
 \[Google\]\(https://www.google.com\)
+
 [Google](https://www.google.com)
 
 **Heading Link:**
+
 \[Table of Contents\]\(#table-of-contents\)
+
 [Table of Contents](#table-of-contents)
 
 **Relative Link:**
 
 **Custom Anchor Link:**
 \[Custom Anchor Link\]\(#custom-anchor-point\)
+
 [Custom Anchor Link](#custom-anchor-point)
 
 # Custom Anchor Point
@@ -121,6 +132,8 @@ Use `\` or `<br/>`
 Hello, \\ World!
 
 Bye, \<br\/\> World!
+
+---
 
 Hello,\ World!
 
