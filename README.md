@@ -46,4 +46,4 @@ A table of contents is automatically added when you use two or more headings.
 
 | Style | Syntax | Keyboard Shortcut | Example | Output |
 |---|---|---|---|---|
-| Bold | `** **` <br/> or `__ __` | `Command`+`B` <br/> (Mac) <br/> or `Ctrl`+`B` <br/> (Windows/Linux) | \*\*This is bold text\*\* | **This is bold text** |
+| Bold | `** **` <br/> or <br/> `__ __` | `Command`+`B` <br/> (Mac) <br/> or <br/> `Ctrl`+`B` <br/> (Windows/Linux) | \*\*This is bold text\*\* | **This is bold text** |
