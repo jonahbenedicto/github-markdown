@@ -13,7 +13,8 @@ A Comprehensive Guide to Markdown on GitHub.
 - [Code](#code)
 - [Link](#link)
 - [Line break](#line-break)
-- [Image)(#image)
+- [Image](#image)
+- [List](#list)
 
 <br/>
 
@@ -202,3 +203,34 @@ Bye, <br/> World!
 # List
 
 **Unordered List:**
+
+Input:
+
+\- Item
+\* Item
+\+ Item
+
+</br>
+
+Output:
+
+- Item
+* Item
++ Item
+
+<br/>
+
+**Sorted List:**
+
+Input:
+
+\1. Item 
+\2. Item
+\3. Item
+
+Output:
+
+1. Item
+2. Item
+3. Item
+
