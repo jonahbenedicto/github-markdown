@@ -13,9 +13,13 @@ A Comprehensive Guide to Markdown on GitHub.
 - [Link](#link)
 - [Line break](#line-break)
 
+<br/>
+
 # Paragraph
 
 > **Use default text**
+
+<br/>
 
 # Heading
 
@@ -71,6 +75,7 @@ A Comprehensive Guide to Markdown on GitHub.
 | Superscript | `<sup> </sup>` | None | This is <br/> \<sup\>superscript\<\/sup\> <br/> text | This is <br/> <sup>superscript</sup> <br/> text |
 | Underline | `<ins> </ins>` | None | this is <br/> \<ins\>underline\<\/ins\> <br/> text | This is <br/> <ins>underline</ins> <br/> text |
 
+<br/>
 
 # Quote
 
@@ -120,6 +125,8 @@ Block code
 print("Python block code")
 ```
 
+<br/>
+
 # Link
 
 > **Use \[Text\]\(URL\)**
@@ -152,6 +159,8 @@ Input: \[Custom Anchor Link\]\(#custom-anchor-point\)
 
 Output: [Custom Anchor Link](#custom-anchor-point)
 
+<br/>
+
 # Line Break
 
 > **Use `\` or `<br/>`**
@@ -171,6 +180,8 @@ Bye, \<br\/\> World!
 Hello,\ World!
 
 Bye, <br/> World!
+
+<br/>
 
 # Custom Anchor Point
 
