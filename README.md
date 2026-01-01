@@ -70,4 +70,23 @@ Use `` ` `` symbol
 
 \`Inline code\`
 
+`Inline code`
+
+\`\`\`
+Block code
+\`\`\`
+
+```
+Block code
+```
+
+
+\`\`\`python
+Python block code
+\`\`\`
+
+```python
+print("Python block code")
+```
+
 
