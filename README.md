@@ -66,7 +66,7 @@ Use `>` symbol
 
 # Code
 
-Use `\`` symbol
+Use `` ` `` symbol
 
 \`Inline code\`
 
