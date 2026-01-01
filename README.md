@@ -2,12 +2,6 @@
 
 A Comprehensive Guide to Markdown on GitHub.
 
-# Custom Anchor Point
-
-\<a name="custom-anchor-point"\>\<\/a\>
-
-<a name="custom-anchor-point"></a>
-
 # Table of Contents
 
 - [Paragraph](#paragraph)
@@ -112,3 +106,22 @@ Use \[Text\]\(URL\)
 **Custom Anchor Link:**
 \[Custom Anchor Link\]\(#custom-anchor-point\)
 [Custom Anchor Link](#custom-anchor-point)
+
+# Custom Anchor Point
+
+\<a name="custom-anchor-point"\>\<\/a\>
+
+<a name="custom-anchor-point"></a>
+
+# Line Break
+
+Use `\` or `<br/>`
+
+Hello, \\ World!
+
+Bye, \<br\/\> World!
+
+Hello, \ World!
+
+Bye, <br/> World!
+
