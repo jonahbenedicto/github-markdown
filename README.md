@@ -243,8 +243,8 @@ Output:
 Input:
 
 \- Item \
-&emsp \- Item \
-&emsp &emsp \- Item
+&emsp; \- Item \
+&emsp; &emsp; \- Item
 
 <br/>
 
@@ -253,5 +253,20 @@ Output:
     - Item
         - Item
 
+<br/>
+
+**Task List:**
+
+Input:
+
+\- \[x\]
+\- \[ \]
+
+<br/>
+
+Output:
+
+- [x] Task
+- [ ] Task
 
 
