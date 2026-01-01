@@ -70,20 +70,19 @@ Use `` ` `` symbol
 
 \`Inline code\`
 
+\`\`\` <br/>
+Block code <br/>
+\`\`\`
+
+\`\`\`python <br/>
+Python block code <br/>
+\`\`\`
+
 `Inline code`
 
-\`\`\`
-Block code
-\`\`\`
-
 ```
 Block code
 ```
-
-
-\`\`\`python
-Python block code
-\`\`\`
 
 ```python
 print("Python block code")
