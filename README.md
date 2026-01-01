@@ -13,21 +13,9 @@ A Comprehensive Guide to Markdown on GitHub.
 - [Link](#link)
 - [Line break](#line-break)
 
-
-<br/>
-
-<br/>
-
-
 # Paragraph
 
 > **Use default text**
-
-
-<br/>
-
-<br/>
-
 
 # Heading
 
@@ -84,12 +72,6 @@ A Comprehensive Guide to Markdown on GitHub.
 | Underline | `<ins> </ins>` | None | this is <br/> \<ins\>underline\<\/ins\> <br/> text | This is <br/> <ins>underline</ins> <br/> text |
 
 
-<br/>
-
-<br/>
-
-
-
 # Quote
 
 > **Use `>` symbol:**
@@ -105,12 +87,6 @@ A Comprehensive Guide to Markdown on GitHub.
 **Output:**
 
 > Quote
-
-
-<br/>
-
-<br/>
-
 
 # Code
 
@@ -144,12 +120,6 @@ Block code
 print("Python block code")
 ```
 
-
-<br/>
-
-<br/>
-
-
 # Link
 
 > **Use \[Text\]\(URL\)**
@@ -182,12 +152,6 @@ Input: \[Custom Anchor Link\]\(#custom-anchor-point\)
 
 Output: [Custom Anchor Link](#custom-anchor-point)
 
-
-<br/>
-
-<br/>
-
-
 # Line Break
 
 > **Use `\` or `<br/>`**
@@ -207,12 +171,6 @@ Bye, \<br\/\> World!
 Hello,\ World!
 
 Bye, <br/> World!
-
-
-<br/>
-
-<br/>
-
 
 # Custom Anchor Point
 
