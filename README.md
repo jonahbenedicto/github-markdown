@@ -4,8 +4,8 @@ A Comprehensive Guide to Markdown on GitHub.
 
 # Table of Contents
 
-[Paragraph Text](#paragraph-text)
-[Heading Text](#heading-text)
+- [Paragraph Text](#paragraph-text)
+- [Heading Text](#heading-text)
 
 # Paragraph Text
 
@@ -15,30 +15,27 @@ Default
 
 Use `#` symbol
 
-\# Heading Text
+\# Heading 1
 
-\#\# Heading Text
+\#\# Heading 2
 
-\#\#\# Heading Text
+\#\#\# Heading 3
 
-\#\#\#\# Heading Text
+\#\#\#\# Heading 4
 
-\#\#\#\#\# Heading Text
+\#\#\#\#\# Heading 5
 
-\#\#\#\#\#\# Heading Text
+\#\#\#\#\#\# Heading 6
 
-# Heading Text
+# Heading 1
 
-## Heading Text
+## Heading 2
 
-### Heading Text
+### Heading 3
 
-#### Heading Text
+#### Heading 4
 
-##### Heading Text
+##### Heading 5
 
-###### Heading Text
-
-
-
+###### Heading 6
 
