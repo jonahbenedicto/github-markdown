@@ -152,26 +152,27 @@ print("Python block code")
 
 # Link
 
-> Use \[Text\]\(URL\)
+> **Use \[Text\]\(URL\)**
 
 **Normal Link:**
 
-\[Google\]\(https://www.google.com\)
+Input: \[Google\]\(https://www.google.com\)
 
-[Google](https://www.google.com)
+Output: [Google](https://www.google.com)
 
 **Heading Link:**
 
-\[Table of Contents\]\(#table-of-contents\)
+Input: \[Table of Contents\]\(#table-of-contents\)
 
-[Table of Contents](#table-of-contents)
+Output: [Table of Contents](#table-of-contents)
 
 **Relative Link:**
 
 **Custom Anchor Link:**
-\[Custom Anchor Link\]\(#custom-anchor-point\)
 
-[Custom Anchor Link](#custom-anchor-point)
+Input: \[Custom Anchor Link\]\(#custom-anchor-point\)
+
+Output: [Custom Anchor Link](#custom-anchor-point)
 
 
 <br/>
@@ -181,7 +182,7 @@ print("Python block code")
 
 # Line Break
 
-> Use `\` or `<br/>`
+> **Use `\` or `<br/>`**
 
 <br/>
 
