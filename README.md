@@ -21,6 +21,7 @@ A Comprehensive Guide to Markdown on GitHub.
 - [Comment](#comment)
 - [Ignore](#ignore)
 - [Table](#table)
+- [Collapsed Section](#collapsed-section)
 
 <br/>
 
@@ -378,3 +379,32 @@ Reference [^1]
 | Left Aligned | Center Aligned | Right Aligned |
 | :--- | :---: | ---: |
 | Left | Center | Right |
+
+<br/>
+
+# Collapsed Section
+
+**Input:**
+
+\<details\> 
+
+
+\<summary\>Summary\<\/summary\>
+
+Details
+
+\<\/details\>
+
+<br/>
+
+**Output:**
+
+<details>
+
+<summary>Summary</summary>
+
+Details
+
+</details>
+
+
