@@ -359,8 +359,8 @@ Reference [^1]
 
 **Input:**
 
-\| Header \| Header \|
-\|---\|---\|
+\| Header \| Header \|\
+\|---\|---\|\
 \| Cell \| Cell \|
 
 <br/>
