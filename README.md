@@ -356,7 +356,9 @@ Reference [^1]
 
 **Input:**
 
-`The server update was <!-- NOT --> successful`
+```
+The server update was <!-- NOT --> successful
+```
 
 **Output:**
 
