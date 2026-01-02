@@ -416,15 +416,15 @@ Details
 
 Input:
 
-```
-\```mermaid
+````
+```mermaid
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
-\```
 ```
+````
 
 Output:
 
@@ -442,7 +442,7 @@ graph TD;
 
 Input:
 
-```
+````
 ```geojson
 {
   "type": "FeatureCollection",
@@ -469,7 +469,7 @@ Input:
   ]
 }
 ```
-```
+````
 
 Output:
 
@@ -505,7 +505,7 @@ Output:
 **TopoJSON diagram:**
 
 Input:
-```
+````
 ```topojson
 {
   "type": "Topology",
@@ -540,7 +540,7 @@ Input:
   "arcs": [[[4000, 0], [1999, 9999], [2000, -9999], [2000, 9999]],[[0, 0], [0, 9999], [2000, 0], [0, -9999], [-2000, 0]]]
 }
 ```
-```
+````
 
 Output:
 
@@ -585,7 +585,7 @@ Output:
 
 Input:
 
-```
+````
 ```stl
 solid cube_corner
   facet normal 0.0 -1.0 0.0
@@ -618,7 +618,7 @@ solid cube_corner
   endfacet
 endsolid
 ```
-```
+````
 
 Output:
 
