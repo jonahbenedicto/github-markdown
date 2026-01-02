@@ -6,7 +6,7 @@ A Comprehensive Guide to Markdown on GitHub.
 
 - [Paragraph](#paragraph)
 - [Heading](#heading)
-- [Style (Bold, Italic, Subscript, Superscript, Underline)](#style)
+- [Format Text (Bold, Italic, Subscript, Superscript, Underline)](#format-text)
 - [Quote](#quote)
 - [Code](#code)
 - [Link](#link)
@@ -15,19 +15,19 @@ A Comprehensive Guide to Markdown on GitHub.
 - [List](#list)
 - [Emoji](#emoji)
 - [Footnote](#footnote)
-- [Alert](#alert)
+- [Alert()](#alert)
 - [Comment](#comment)
-- [Ignore](#ignore)
+- [Ignore Markdown Format](#ignore-markdown-format)
 - [Table](#table)
 - [Collapsed Section](#collapsed-section)
 - [Diagram](#diagram)
 - [Math](#math)
 
-# Paragraph
+# Paragraph Text
 
 Use default text.
 
-# Heading
+# Heading Text
 
 Use `#` symbol.
 
@@ -63,9 +63,9 @@ Use `#` symbol.
 
 ###### Heading 6
 
-# Style
+# Format Text
 
-| Style | Syntax | Input | Output |
+| Format | Syntax | Input | Output |
 |---|---|---|---|
 | Bold | `** **` | `**bold**` | **bold** |
 | Italic | `* *` | `*italic*` | *italic* |
@@ -323,12 +323,12 @@ Reference [^1]
 
 ```
 > [!WARNING]
-> Warning
+> Description
 ```
 
 ```
 > [!CAUTION]
-> Caution
+> Description
 ```
 
 **Output:**
@@ -352,7 +352,7 @@ Reference [^1]
 
 > **Use `<!-- Comment -->`**
 
-# Ignore
+# Ignore Markdown Format
 
 > **Use `\`**
 
