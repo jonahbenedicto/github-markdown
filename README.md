@@ -16,6 +16,7 @@ A Comprehensive Guide to Markdown on GitHub.
 - [Image](#image)
 - [List](#list)
 - [Emoji](#emoji)
+- [Footnote](#footnote)
 
 <br/>
 
@@ -199,6 +200,8 @@ Bye, <br/> World!
 
 > **Use \!\[Alternative Text\]\(URL\)**
 
+[See Link](#link)
+
 <br/>
 
 # List
@@ -280,4 +283,21 @@ Output:
 
 **Output:** :smile:
 
+<br/>
+
+# Footnote
+
+**Input:** 
+
+Reference \[\^1\]
+
+\[\^1\]\: Footnote
+
+<br/>
+
+**Output:**
+
+Reference [^1]
+
+[^1]: Footnote
 
