@@ -577,7 +577,7 @@ $\sqrt{3x-1}+(1+x)^2$
 *Output:*
 $\sqrt{3x-1}+(1+x)^2$
 
-**Math Block: **
+**Math Block:**
 
 *Input:*
 
