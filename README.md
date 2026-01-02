@@ -20,7 +20,7 @@ A Comprehensive Guide to Markdown on GitHub.
 - [Ignore Markdown Format](#ignore-markdown-format)
 - [Table](#table)
 - [Collapsed Section](#collapsed-section)
-- [Diagram (Mermaid, GeoJSON, TopoJSON, STL 3D](#diagram)
+- [Diagram (Mermaid, GeoJSON, TopoJSON)](#diagram)
 - [Math](#math)
 
 # Paragraph Text
