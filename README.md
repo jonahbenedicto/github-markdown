@@ -366,7 +366,7 @@ The server update was <!-- NOT --> successful
 # Ignore Markdown Format
 
 To stop automatically formatting your text as markdown: 
-** use `/` symbol** in front.
+**use `/` symbol** in front.
 
 **Input:**
 
