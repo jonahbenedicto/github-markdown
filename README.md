@@ -83,7 +83,9 @@ Use `>` symbol.
 
 **Input:**
 
-`> Quote`
+```
+> Quote
+```
 
 **Output:**
 
@@ -137,51 +139,60 @@ print("Hello, World!")
 
 # Link
 
-> **Use \[Text\]\(URL\)**
-
-<br/>
+Use `[ ]( )`.
 
 **Normal Link:**
 
-Input: \[Google\]\(https://www.google.com\)
+Input: 
+```
+[Google](https://www.google.com)
+```
 
-Output: [Google](https://www.google.com)
+Output: 
 
-<br/>
+[Google](https://www.google.com)
 
 **Heading Link:**
 
-Input: \[Table of Contents\]\(#table-of-contents\)
+Input: 
 
-Output: [Table of Contents](#table-of-contents)
+```
+[Table of Contents](#table-of-contents)
+```
 
-<br/>
+Output: 
+
+[Table of Contents](#table-of-contents)
 
 **Relative Link:**
 
-<br/>
 
 **Custom Anchor Link:**
 
-Input: \[Custom Anchor Link\]\(#custom-anchor-point\)
+Input: 
 
-Output: [Custom Anchor Link](#custom-anchor-point)
+```
+[Custom Anchor Link](#custom-anchor-point)
 
-<br/>
+```
+
+Output: 
+
+[Custom Anchor Link](#custom-anchor-point)
 
 # Line Break
 
-> **Use `\` or `<br/>`**
-
-<br/>
+Use `\` or `<br/>`
 
 **Input:**
 
-Hello, \\ World!
+```
+Hello,\ World!
+```
 
-Bye, \<br\/\> World!
-
-<br/>
+```
+Bye, <br/> World!
+```
 
 **Output:**
 
@@ -189,23 +200,17 @@ Hello,\ World!
 
 Bye, <br/> World!
 
-<br/>
-
 # Custom Anchor Point
 
-\<a name="custom-anchor-point"\>\<\/a\>
+```
+<a name="custom-anchor-point"></a>
+```
 
 <a name="custom-anchor-point"></a>
 
-<br/>
-
 # Image
 
-> **Use \!\[Alternative Text\]\(URL\)**
-
-[See Link](#link)
-
-<br/>
+Use `![ ]( )`
 
 # List
 
