@@ -496,11 +496,39 @@ graph TD;
 ````
 ```geojson
 {
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [0, 0]
-  }
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Central Park",
+        "type": "park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-73.9819, 40.7681],
+            [-73.9581, 40.7681],
+            [-73.9581, 40.8006],
+            [-73.9819, 40.8006],
+            [-73.9819, 40.7681]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Statue of Liberty",
+        "type": "monument"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.0445, 40.6892]
+      }
+    }
+  ]
 }
 ```
 ````
@@ -509,91 +537,123 @@ graph TD;
 
 ```geojson
 {
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [0, 0]
-  }
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Central Park",
+        "type": "park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-73.9819, 40.7681],
+            [-73.9581, 40.7681],
+            [-73.9581, 40.8006],
+            [-73.9819, 40.8006],
+            [-73.9819, 40.7681]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Statue of Liberty",
+        "type": "monument"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.0445, 40.6892]
+      }
+    }
+  ]
 }
 ```
 
 **TopoJSON diagram:**
 
-*Input:*
+*Code:*
 ````
 ```topojson
 {
   "type": "Topology",
   "transform": {
-    "scale": [0.0005000500050005, 0.00010001000100010001],
-    "translate": [100, 0]
+    "scale": [0.001, 0.001],
+    "translate": [0, 0]
   },
   "objects": {
-    "example": {
+    "countries": {
       "type": "GeometryCollection",
       "geometries": [
         {
-          "type": "Point",
-          "properties": {"prop0": "value0"},
-          "coordinates": [4000, 5000]
-        },
-        {
-          "type": "LineString",
-          "properties": {"prop0": "value0", "prop1": 0},
-          "arcs": [0]
+          "type": "Polygon",
+          "properties": {"name": "Country A"},
+          "arcs": [[0]]
         },
         {
           "type": "Polygon",
-          "properties": {"prop0": "value0",
-            "prop1": {"this": "that"}
-          },
+          "properties": {"name": "Country B"},
           "arcs": [[1]]
+        },
+        {
+          "type": "MultiPolygon",
+          "properties": {"name": "Islands"},
+          "arcs": [[[2]], [[3]]]
         }
       ]
     }
   },
-  "arcs": [[[4000, 0], [1999, 9999], [2000, -9999], [2000, 9999]],[[0, 0], [0, 9999], [2000, 0], [0, -9999], [-2000, 0]]]
+  "arcs": [
+    [[0, 0], [100, 0], [100, 50], [0, 50], [0, 0]],
+    [[150, 0], [200, 0], [200, 60], [150, 60], [150, 0]],
+    [[50, 100], [60, 100], [60, 110], [50, 110], [50, 100]],
+    [[120, 100], [130, 100], [130, 110], [120, 110], [120, 100]]
+  ]
 }
 ```
 ````
 
-*Output:*
-
-```topojson
+*Preview:*
+```
 {
   "type": "Topology",
   "transform": {
-    "scale": [0.0005000500050005, 0.00010001000100010001],
-    "translate": [100, 0]
+    "scale": [0.001, 0.001],
+    "translate": [0, 0]
   },
   "objects": {
-    "example": {
+    "countries": {
       "type": "GeometryCollection",
       "geometries": [
         {
-          "type": "Point",
-          "properties": {"prop0": "value0"},
-          "coordinates": [4000, 5000]
-        },
-        {
-          "type": "LineString",
-          "properties": {"prop0": "value0", "prop1": 0},
-          "arcs": [0]
+          "type": "Polygon",
+          "properties": {"name": "Country A"},
+          "arcs": [[0]]
         },
         {
           "type": "Polygon",
-          "properties": {"prop0": "value0",
-            "prop1": {"this": "that"}
-          },
+          "properties": {"name": "Country B"},
           "arcs": [[1]]
+        },
+        {
+          "type": "MultiPolygon",
+          "properties": {"name": "Islands"},
+          "arcs": [[[2]], [[3]]]
         }
       ]
     }
   },
-  "arcs": [[[4000, 0], [1999, 9999], [2000, -9999], [2000, 9999]],[[0, 0], [0, 9999], [2000, 0], [0, -9999], [-2000, 0]]]
+  "arcs": [
+    [[0, 0], [100, 0], [100, 50], [0, 50], [0, 0]],
+    [[150, 0], [200, 0], [200, 60], [150, 60], [150, 0]],
+    [[50, 100], [60, 100], [60, 110], [50, 110], [50, 100]],
+    [[120, 100], [130, 100], [130, 110], [120, 110], [120, 100]]
+  ]
 }
 ```
-
 **STL 3D Diagram:**
 
 # Math
