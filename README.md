@@ -105,8 +105,8 @@ Use `` ` `` symbol.
 
 `Inline code`
 
-To write a backtick `` ` `` in inline code.
-Use multiple backticks `` ` `` in the start and end of the inline code.
+To use `` ` `` symbol in inline code.
+Use multiple ``` `` ``` symbols  in the start and end of the inline code and block code.
 
 **Code:**
 ```
@@ -132,8 +132,7 @@ print("Hello, World!")
 print("Hello, World!")
 ```
 
-You can specify the programming language.
-You can begin and end with four `` ` `` symbols to use ```` ``` ```` in a code block.
+You can specify the programming language (Optional).
 
 # Link
 
@@ -170,6 +169,7 @@ Use `[ ]( )` symbols.
 ```
 
 **Preview:**
+
 [image.png](./image.png)
 
 ## Custom Anchor Link
@@ -183,6 +183,18 @@ Use `[ ]( )` symbols.
 **Preview:**
 
 [Custom Anchor Link](#custom-anchor-point)
+
+A custom anchor link is a link to a custom anchor point.
+
+
+**Code:**
+```
+<a name="custom-anchor-point">Custom Anchor Point</a>
+```
+
+**Preview:**
+<a name="custom-anchor-point">Custom Anchor Point</a>
+
 
 # Line Break
 
