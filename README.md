@@ -610,6 +610,13 @@ $$
 
 # Quick Tips
 
+- Keep it simple and readable
+- Preview often (`Ctrl+Shift+V` in VS Code)
+- Use relative links for repo files
+- Escape special chars with `\`
+- Add alt text to images
+- Keep tables narrow (<5 columns)
+
 ---
 
 *Keep this guide handy for quick reference. Contribute via PR.*
