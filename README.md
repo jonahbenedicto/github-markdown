@@ -500,32 +500,20 @@ graph TD;
   "features": [
     {
       "type": "Feature",
-      "properties": {
-        "name": "Central Park",
-        "type": "park"
-      },
       "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-73.9819, 40.7681],
-            [-73.9581, 40.7681],
-            [-73.9581, 40.8006],
-            [-73.9819, 40.8006],
-            [-73.9819, 40.7681]
-          ]
-        ]
+        "type": "Point",
+        "coordinates": [0, 0]
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "Statue of Liberty",
-        "type": "monument"
-      },
       "geometry": {
-        "type": "Point",
-        "coordinates": [-74.0445, 40.6892]
+        "type": "LineString",
+        "coordinates": [
+          [0, 0],
+          [5, 5],
+          [10, 0]
+        ]
       }
     }
   ]
@@ -541,32 +529,20 @@ graph TD;
   "features": [
     {
       "type": "Feature",
-      "properties": {
-        "name": "Central Park",
-        "type": "park"
-      },
       "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-73.9819, 40.7681],
-            [-73.9581, 40.7681],
-            [-73.9581, 40.8006],
-            [-73.9819, 40.8006],
-            [-73.9819, 40.7681]
-          ]
-        ]
+        "type": "Point",
+        "coordinates": [0, 0]
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "Statue of Liberty",
-        "type": "monument"
-      },
       "geometry": {
-        "type": "Point",
-        "coordinates": [-74.0445, 40.6892]
+        "type": "LineString",
+        "coordinates": [
+          [0, 0],
+          [5, 5],
+          [10, 0]
+        ]
       }
     }
   ]
