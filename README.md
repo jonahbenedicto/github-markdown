@@ -105,7 +105,16 @@ Use `` ` `` symbol.
 
 `Inline code`
 
-You can begin and end with two `` ` `` symbols to use `` ` `` in a code block.
+To write a backtick `` ` `` in inline code.
+Use multiple backticks `` ` `` in the start and end of the inline code.
+
+**Code:**
+```
+``Inline code with a backtick ` ``
+```
+
+**Preview:**
+``Inline code with a backtick ` ``
 
 ## Block code
 
