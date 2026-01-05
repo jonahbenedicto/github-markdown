@@ -92,22 +92,22 @@ Use `>` symbol.
 
 Use `` ` `` symbol.
 
-**Inline Code**:
+## Inline Code
 
-*Code:*
+**Code:**
 
 ````
 `Inline code`
 ````
 
-*Preview:*
+**Preview:**
 
 
 `Inline code`
 
-**Block code**
+## Block code
 
-*Code:*
+**Code:**
 
 ````
 ```python
@@ -115,7 +115,7 @@ print("Hello, World!")
 ```
 ````
 
-*Preview:*
+**Preview:**
 
 ```python
 print("Hello, World!")
