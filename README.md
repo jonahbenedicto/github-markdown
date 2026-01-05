@@ -65,7 +65,7 @@ Use `#` symbol.
 # Text Style
 
 | Style | Code | Preview |
-|---|---|---|---|
+|---|---|---|
 | Bold | `**bold**` | **bold** |
 | Italic | `*italic*` | *italic* |
 | Strikethrough | `~~strikethrough~~` | ~strikethrough~ |
