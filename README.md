@@ -1,27 +1,28 @@
 # GitHub Markdown Guide
 
-A comprehensive guide for markdown on github
+A comprehensive minimal guide for markdown on GitHub. Keep this handy for quick reference.
 
 # Table of Contents
 
-- [Paragraph](#paragraph)
-- [Heading](#heading)
-- [Format Text (Bold, Italic, Subscript, Superscript, Underline)](#format-text)
+- [Paragraph Text](#paragraph-text)
+- [Heading Text](#heading-text)
+- [Text Style](#text-style)
 - [Quote](#quote)
 - [Code](#code)
 - [Link](#link)
-- [Line break](#line-break)
+- [Line Break](#line-break)
 - [Image](#image)
-- [List (Unordered List, Ordered List)](#list)
+- [List](#list)
 - [Emoji](#emoji)
 - [Footnote](#footnote)
-- [Alert (Note, Tip, Important, Warning, Caution)](#alert)
+- [Alert](#alert)
 - [Comment](#comment)
-- [Ignore Markdown Format](#ignore-markdown-format)
+- [Ignore Markdown](#ignore-markdown)
 - [Table](#table)
 - [Collapsed Section](#collapsed-section)
-- [Diagram (Mermaid, GeoJSON, TopoJSON)](#diagram)
+- [Diagrams](#diagrams)
 - [Math](#math)
+- [Quick Tips](#quick-tips)
 
 # Paragraph Text
 
@@ -31,7 +32,7 @@ Use default text.
 
 Use `#` symbol.
 
-**Input:**
+**Code:**
 
 ```
 # Heading 1
@@ -47,9 +48,7 @@ Use `#` symbol.
 ###### Heading 6
 ```
 
-<br/>
-
-**Output:**
+**Preview:**
 
 # Heading 1
 
@@ -63,29 +62,29 @@ Use `#` symbol.
 
 ###### Heading 6
 
-# Format Text
+# Text Style
 
-| Format | Syntax | Input | Output |
+| Style | Code | Preview |
 |---|---|---|---|
-| Bold | `** **` | `**bold**` | **bold** |
-| Italic | `* *` | `*italic*` | *italic* |
-| Strikethrough | `~~ ~~` | `~~strikethrough~~` | ~strikethrough~ |
-| Bold and italic | `*** ***` | `***bold and italic***` | ***bold and italic*** |
-| Subscript | `<sub> </sub>` | `<sub\>subscript</sub>` | <sub>subscript</sub> |
-| Superscript | `<sup> </sup>` | `<sup\>superscript</sup>` | <sup>superscript</sup> |
-| Underline | `<ins> </ins>` | `<ins>underline</ins>` | <ins>underline</ins> |
+| Bold | `**bold**` | **bold** |
+| Italic | `*italic*` | *italic* |
+| Strikethrough | `~~strikethrough~~` | ~strikethrough~ |
+| Bold and italic | `***bold and italic***` | ***bold and italic*** |
+| Subscript | `<sub\>subscript</sub>` | <sub>subscript</sub> |
+| Superscript | `<sup\>superscript</sup>` | <sup>superscript</sup> |
+| Underline | `<ins>underline</ins>` | <ins>underline</ins> |
 
 # Quote
 
 Use `>` symbol.
 
-**Input:**
+**Code:**
 
 ```
 > Quote
 ```
 
-**Output:**
+**Preview:**
 
 > Quote
 
@@ -93,23 +92,22 @@ Use `>` symbol.
 
 Use `` ` `` symbol.
 
-**Input:**
+**Inline Code**:
+
+*Code:*
 
 ````
 `Inline code`
 ````
 
-````
-```
-Block code
-```
-````
+*Preview:*
 
-`````
-````
-Code with back ticks
-````
-`````
+
+`Inline code`
+
+**Block code**
+
+*Code:*
 
 ````
 ```python
@@ -117,19 +115,7 @@ print("Hello, World!")
 ```
 ````
 
-**Output:**
-
-`Inline code`
-
-```
-Block code
-```
-
-````
-```
-Code with backticks
-```
-````
+*Preview:*
 
 ```python
 print("Hello, World!")
@@ -365,7 +351,7 @@ The server update was <!-- NOT --> successful
 The server update was <!-- NOT --> successful
 
 
-# Ignore Markdown Format
+# Ignore Markdown
 
 To stop automatically formatting your text as markdown: 
 **use `/` symbol** in front.
@@ -428,7 +414,7 @@ Details
 Details
 </details>
 
-# Diagram
+# Diagrams
 
 **Mermaid diagram:**
 
@@ -623,3 +609,5 @@ $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \
 
 > [!NOTE]
 > For more information visit: [Katex Documentation](https://katex.org/docs/supported.html)
+
+# Quick Tips
