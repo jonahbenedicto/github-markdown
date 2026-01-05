@@ -114,6 +114,7 @@ Use multiple ``` `` ``` symbols  in the start and end of the inline code and blo
 ```
 
 **Preview:**
+
 ``Inline code with a backtick ` ``
 
 ## Block code
@@ -184,7 +185,7 @@ Use `[ ]( )` symbols.
 
 [Custom Anchor Link](#custom-anchor-point)
 
-A custom anchor link is a link to a custom anchor point.
+A custom anchor link must have a custom anchor point.
 
 
 **Code:**
@@ -193,6 +194,7 @@ A custom anchor link is a link to a custom anchor point.
 ```
 
 **Preview:**
+
 <a name="custom-anchor-point">Custom Anchor Point</a>
 
 
@@ -210,7 +212,6 @@ or
 
 Bye, <br/> World!
 ```
-
 
 **Preview:**
 
@@ -231,9 +232,16 @@ Bye, <br/> World!
 
 # Image
 
-Use `![ ]( )`
+Use `![ ]( )` symbols.
 
-[See Link](#link)
+**Code:**
+
+```
+[Image](./image.png)
+```
+
+**Preview:**
+[Image](./image.png)
 
 # List
 
