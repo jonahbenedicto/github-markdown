@@ -575,7 +575,7 @@ graph TD;
 
 **TopoJSON diagram:**
 
-*Code:*
+**Code:**
 ````
 ```topojson
 {
@@ -616,8 +616,8 @@ graph TD;
 ```
 ````
 
-*Preview:*
-```
+**Preview:**
+```topojson
 {
   "type": "Topology",
   "transform": {
@@ -654,31 +654,30 @@ graph TD;
   ]
 }
 ```
-**STL 3D Diagram:**
 
 # Math
 
 Use `$` symbol.
 
-**Inline Math:**
+## Inline Math
 
-*Input:*
+**Code:**
 ```
 $\sqrt{3x-1}+(1+x)^2$
 ```
 
-*Output:*
+**Preview:**
 $\sqrt{3x-1}+(1+x)^2$
 
-**Math Block:**
+## Math Block
 
-*Input:*
+**Code:**
 
 ```
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 ```
 
-*Output:*
+**Preview:**
 
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 
