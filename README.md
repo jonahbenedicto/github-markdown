@@ -237,25 +237,25 @@ Use `![ ]( )` symbols.
 
 # List
 
-**Unordered List:**
+## Unordered List
 
-*Input:*
+**Code:**
 
 ```
 - Item
 * Item
-+ Item
+    + Item
 ```
 
-*Output:*
+**Preview:**
 
 - Item
 * Item
-+ Item
+    + Item
 
-**Sorted List:**
+## Sorted List
 
-*Input:*
+**Code:**
 
 ```
 1. Item
@@ -263,38 +263,22 @@ Use `![ ]( )` symbols.
 3. Item
 ```
 
-*Output:*
+**Preview:**
 
 1. Item
 2. Item
 3. Item
 
-**Nested List:**
+## Task List
 
-*Input:*
-
-```
-- Item
-    - Item
-        - Item
-```
-
-*Output:*
-
-- Item
-    - Item
-        - Item
-
-**Task List:**
-
-*Input:*
+**Code:**
 
 ```
 - [x] Task
 - [ ] Task
 ```
 
-*Output:*
+**Preview:**
 
 - [x] Task
 - [ ] Task
