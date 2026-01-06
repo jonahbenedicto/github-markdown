@@ -301,9 +301,9 @@ Use `![ ]( )` symbols.
 
 **Use :emojicode:**
 
-**Input:** `:smile:`
+**Code:** `:smile:`
 
-**Output:** :smile:
+**Preview:** :smile:
 
 > [!NOTE]
 > For more information check out: [Emoji List Unicode](https://github.com/Fantantonio/Emoji-List-Unicode)
