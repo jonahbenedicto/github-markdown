@@ -595,4 +595,4 @@ $$
 
 ---
 
-*Keep this guide handy for quick reference. Contribute via PR.*
+Keep this guide handy for quick reference. Contribute via PR.
