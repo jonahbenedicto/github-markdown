@@ -22,7 +22,6 @@ A comprehensive minimal guide for markdown on GitHub. Keep this handy for quick 
 - [Collapsed Section](#collapsed-section)
 - [Diagrams](#diagrams)
 - [Math](#math)
-- [Quick Tips](#quick-tips)
 
 # Paragraph Text
 
@@ -583,15 +582,6 @@ $$
 
 > [!NOTE]
 > For more information visit: [Katex Docs](https://katex.org/docs/supported.html)
-
-# Quick Tips
-
-- Keep it simple and readable
-- Preview often (`Ctrl+Shift+V` in VS Code)
-- Use relative links for repo files
-- Escape special chars with `\`
-- Add alt text to images
-- Keep tables narrow (<5 columns)
 
 ---
 
